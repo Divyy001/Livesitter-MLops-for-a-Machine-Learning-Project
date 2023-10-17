@@ -1,0 +1,13 @@
+numpy
+matplotlib
+keras
+tensorflow
+nltk
+pickle-mixin
+tqdm
+Pillow
+ipywidgets
+graphviz
+pydot
+opencv-python
+streamlit
