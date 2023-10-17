@@ -2,9 +2,11 @@
  Implementing Simplified MLops for a Machine Learning Project
 1. Version Control-
     A Deep Learning based image caption generator project using Kaggle Flickr8k dataset The objective of the project is to predict the captions for the input image. The dataset consists of 8k images and 5 captions for each image. The features are extracted from both the image and the text captions for input. The features will be concatenated to predict the next word of the caption. CNN is used for image and LSTM is used for text. BLEU Score is used as a metric to evaluate the performance of the trained model.
-    ![Alt text](XygNZ.png)
+    ![XygNZ](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/a70c585c-146b-4ca8-8ae1-19e06e20bfe5)
+
     Here VGG16 pretrained model for feature extraction from images, a CNN model is used and for LSTM model for next word prediction, the model is trained in the following way-
-    ![Alt text](Untitled.png)
+   ![Untitled](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/f888eec3-36a5-46dc-8567-96cccaca6584)
+
     Saved the model as network.h5
     Created the interface using Streamlit providing the image uploading option and generating caption button.
 
@@ -54,7 +56,8 @@
 
     Output will be shown as below.
 
-    ![Alt text](image.png)
+    ![image](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/fc31eede-d004-4101-9578-4e52fa8e12c1)
+
 
     Pushing the Docker image to a container registry(Docker Hub)-
     By using "docker images" in the same directory will give the images list.
@@ -67,4 +70,5 @@
 
     Added the repo name with the image along side the docker push command. This will push the image to the docker hub repo.
 
-    ![Alt text](image-1.png)
+    ![image-1](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/7cc43249-851e-4c44-b68a-616aba41fc78)
+
