@@ -9,8 +9,11 @@
 
     Saved the model as network.h5
     Created the interface using Streamlit providing the image uploading option and generating caption button.
+    Here is the glimpse of the interface created.
+   ![image](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/c2f08d38-368d-4c1d-bedc-5c63654614a6)
 
-2. Docker Containerization-
+
+3. Docker Containerization-
     In the working root directory, creating a file named ‘dockerfile’ without any extensions.
 
     Docker Layers- 
