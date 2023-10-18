@@ -75,3 +75,20 @@
 
     ![image-1](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/7cc43249-851e-4c44-b68a-616aba41fc78)
 
+3. Cloud Deployment-  Starting off with setting up the AWS CLI, loging in the docker credentials in cmd.
+    Getting the AmazonECS-FullAccess Access Key and Secret Access key by creating a new IAM user.
+   
+   ![image](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/81b0367c-7ea0-449e-b05b-4ce25279f7f5)
+   
+   Configuring aws in cmd by entering the so obtained Access key and Secret Access key along with some other details.
+   
+   ![image](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/9557c06f-c752-4c45-902a-b56ac7f480ad)
+
+   Creating the repositary in Elastic Container Registary(ECR) in AWS console.
+   Then going on to create the dockertag using the following command:
+     >docker tag streamlitapp:latest mlops_icg/streamlitapp:latest
+
+   Finally pushing the docker image to the repo created by using the below command:
+    ![image](https://github.com/Divyy001/Livesitter-MLops-for-a-Machine-Learning-Project/assets/80240942/6472b4c1-13f1-4a80-ba83-7cbe0f5e1127)
+
+
